@@ -5,11 +5,10 @@ This is a smart document scanner made using Python.
 <br>This scanner takes the image input of document using smartphone and scans and saves the document in PC.
 
 ## Working 
-<br>
-- The code is run and the camera display appears on the laptop screen.
-- Tap 's' on keyboard to scan the document.
-- To find the scanned image, go the the project folder where all the scanned documents will be stored.
-<br>
+*The code is run and the camera display appears on the laptop screen.
+*Tap 's' on keyboard to scan the document.
+*To find the scanned image, go the the project folder where all the scanned documents will be stored.
+
 ![Alt](https://github.com/CHINMAY02CS/Documents-Scanner/blob/main/Framesample.jpg)
 <br>
 
@@ -37,8 +36,8 @@ This is a smart document scanner made using Python.
 
 ### Notes
 <br>
--For scanning smaller documents like driving license, passport size photo - change the 'frame' to 'object_only' in lines 42 and 45 in main.py file.
--I have used PyCharm Community Edition developer tool for this project.
--For scanning grayscale documents, change the flag value from -1 to 0 in line 21 in main.py file.
--Comment out line 36 in main.py file if you do not want a rectangluar frame appearance in the scanned small size document.
+*For scanning smaller documents like driving license, passport size photo - change the 'frame' to 'object_only' in lines 42 and 45 in main.py file.
+*I have used PyCharm Community Edition developer tool for this project.
+*For scanning grayscale documents, change the flag value from -1 to 0 in line 21 in main.py file.
+*Comment out line 36 in main.py file if you do not want a rectangluar frame appearance in the scanned small size document.
 
