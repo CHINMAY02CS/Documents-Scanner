@@ -5,9 +5,9 @@ This is a smart document scanner made using Python.
 <br>This scanner takes the image input of document using smartphone and scans and saves the document in PC.
 
 ## Working 
-*The code is run and the camera display appears on the laptop screen.
-*Tap 's' on keyboard to scan the document.
-*To find the scanned image, go the the project folder where all the scanned documents will be stored.
+* The code is run and the camera display appears on the laptop screen.
+* Tap 's' on keyboard to scan the document.
+* To find the scanned image, go the the project folder where all the scanned documents will be stored.
 
 ![Alt](https://github.com/CHINMAY02CS/Documents-Scanner/blob/main/Framesample.jpg)
 <br>
