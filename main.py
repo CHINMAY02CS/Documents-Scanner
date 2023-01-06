@@ -8,7 +8,7 @@ from PIL import Image
 import time
 
 # Creating a variable 'url' to store the url of the IP Webcam
-url = 'http://192.168.137.95:8080/shot.jpg'
+url = ' Place your IPv4 address here '
 
 # we will now be using the urllib to always capture and open the latest image
 
@@ -39,11 +39,11 @@ while True:   # Using 'True' for running the while loop continuously
             # taking small portion of the frame
             object_only = frame[y: y+h, x: x+w]
 
-            cv2.imshow('Smart Scanner', object_only)   # if you want to scan large area, change 'object_only' to 'frame'
+            cv2.imshow('Smart Scanner', frame)   # if you want to scan smaller area, change 'frame' to 'object_only'
             if cv2.waitKey(1) == ord('s'):  # checking if alphabet 's' is pressed on keyboard
 
-                img_pil = Image.fromarray(object_only)  # the frame consists of array
-                # if you want to scan large area, change 'object_only' to 'frame' in above line
+                img_pil = Image.fromarray(frame)  # the frame consists of array
+                # if you want to scan smaller area, change 'frame' to 'object_only'
 
                 # creating time instance for storing image
                 time_str = time.strftime('%Y-%m-%d-%H-%M-%S')  # Year - month - date - Hour - Minute - Second
