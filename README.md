@@ -1,5 +1,5 @@
 # Document-Scanner
-<br>
+
 This is a smart document scanner made using Python.
 This scanner takes the image input of document using smartphone and scans and saves the document in PC.
 ![Alt](https://github.com/CHINMAY02CS/Documents-Scanner/blob/main/Framesample.jpg)
